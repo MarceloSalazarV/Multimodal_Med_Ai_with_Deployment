@@ -72,9 +72,9 @@ iface = gr.Interface(
     description="Upload a skin image and speak your symptoms. Listen to the doctor's advice using the play/replay button."
 )
 
-# Launch on Render or locally
+# Launch on Render using the PORT environment variable
 iface.launch(
     server_name="0.0.0.0",
-    server_port=int(os.environ.get("PORT", 7860)),
+    server_port=int(os.environ.get("PORT", 7860)),  # ensures compatibility with Render
     share=True
 )
