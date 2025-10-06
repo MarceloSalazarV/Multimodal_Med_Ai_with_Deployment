@@ -9,7 +9,7 @@ MediBot 2.0 is an AI-powered doctor assistant that leverages speech recognition,
 
 ## 🌍 Live Demo (Render Deployment)
 Experience the app online here:  
-👉 [https://multimodal-med-ai.onrender.com](https://multimodal-med-ai.onrender.com)
+👉 [[https://multimodal-med-ai.onrender.com](https://multimodal-med-ai-with-deployment.onrender.com/)]
 
 
 ---
